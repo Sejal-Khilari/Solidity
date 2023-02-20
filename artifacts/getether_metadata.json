@@ -1,0 +1,63 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "checkbal",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"send_ether.sol": "getether"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"send_ether.sol": {
+			"keccak256": "0xd087ae9c11a5daf47f9b22e57be7f5359ce80b94c198f62cef0af18879747e3f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://70370e40099ac2b1c275d569ed112948db6863987ccfb47f61633828a33b87a9",
+				"dweb:/ipfs/QmWb2XtbAuEDJu2eThq6boFxw1tkBTq6KqkeDTRu4vdin9"
+			]
+		}
+	},
+	"version": 1
+}

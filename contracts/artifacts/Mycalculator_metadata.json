@@ -1,0 +1,197 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "creator",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "x_",
+						"type": "int256"
+					},
+					{
+						"internalType": "int256",
+						"name": "y_",
+						"type": "int256"
+					}
+				],
+				"name": "divide",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "x_",
+						"type": "int256"
+					},
+					{
+						"internalType": "int256",
+						"name": "y_",
+						"type": "int256"
+					}
+				],
+				"name": "multiply",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "x_",
+						"type": "int256"
+					},
+					{
+						"internalType": "int256",
+						"name": "y_",
+						"type": "int256"
+					}
+				],
+				"name": "personalDivision",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "x_",
+						"type": "int256"
+					},
+					{
+						"internalType": "int256",
+						"name": "y_",
+						"type": "int256"
+					}
+				],
+				"name": "substract",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "x_",
+						"type": "int256"
+					},
+					{
+						"internalType": "int256",
+						"name": "y_",
+						"type": "int256"
+					}
+				],
+				"name": "sum",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Mycalculator.sol": "Mycalculator"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Mycalculator.sol": {
+			"keccak256": "0xd26071f25c7221812a6e2886a7f4d5f17534463452c089cfb3a08af791247333",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://0eb4191744d04da144f8d2f19b8bc0f53d1088453790c14b17c0e5caee685658",
+				"dweb:/ipfs/QmWFaDw52zFUZf3UnZCdTJQzsDNJHRKmwoB9qQva16FGam"
+			]
+		}
+	},
+	"version": 1
+}

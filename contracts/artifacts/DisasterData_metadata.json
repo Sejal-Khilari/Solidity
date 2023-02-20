@@ -1,0 +1,170 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "admin",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "district",
+						"type": "string"
+					}
+				],
+				"name": "getAccumulatedSeverity",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getDistricts",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "district",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "day",
+						"type": "uint256"
+					}
+				],
+				"name": "getSeverityData",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "district",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "newSeverity",
+						"type": "uint256"
+					}
+				],
+				"name": "setSeverity",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"name": "severity",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "lastUpdatedDay",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "startDay",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/SeverityData.sol": "DisasterData"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/SeverityData.sol": {
+			"keccak256": "0x3d2837ea7e4ef11711018d0f1dd178aed47ff843d39e8698fda2cbec05509752",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://5aa79766e47bbc0a6ffb044d31bbe378fd684a910b206e7ee6c082863a369686",
+				"dweb:/ipfs/QmUi1rM2Xun8xEbGVfDejXF7Z8QNbPfaFf9sijPTFUN2sk"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,126 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "name_",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "class_",
+						"type": "uint256"
+					}
+				],
+				"name": "enroll",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "rollNumber_",
+						"type": "uint256"
+					}
+				],
+				"name": "getStudentDetails",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "name",
+								"type": "string"
+							},
+							{
+								"internalType": "uint256",
+								"name": "class",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "feesPaid",
+								"type": "uint256"
+							}
+						],
+						"internalType": "struct College.StudentDetails",
+						"name": "",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "rollNumber_",
+						"type": "uint256"
+					}
+				],
+				"name": "payFees",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "totlaStudents",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/College.sol": "College"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/College.sol": {
+			"keccak256": "0xad3d8f5292dd55114d86957d14bd64d18a33b3eea8f5d1dd53735e90b9bdf054",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://47eba4b555a5f1d0db39cd8e8fc01c59e1f81793cc4c818104228f3d5e5b2fb3",
+				"dweb:/ipfs/QmaCQ3bTu4w1Uajgn7MhPvpn3yHT9YtWAPsRi2MG6kRRgp"
+			]
+		}
+	},
+	"version": 1
+}

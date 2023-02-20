@@ -1,0 +1,154 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "creator",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "x_",
+						"type": "int256"
+					},
+					{
+						"internalType": "int256",
+						"name": "y_",
+						"type": "int256"
+					}
+				],
+				"name": "division",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "x_",
+						"type": "int256"
+					},
+					{
+						"internalType": "int256",
+						"name": "y_",
+						"type": "int256"
+					}
+				],
+				"name": "multiply",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "x_",
+						"type": "int256"
+					},
+					{
+						"internalType": "int256",
+						"name": "y_",
+						"type": "int256"
+					}
+				],
+				"name": "subtract",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "x_",
+						"type": "int256"
+					},
+					{
+						"internalType": "int256",
+						"name": "y_",
+						"type": "int256"
+					}
+				],
+				"name": "sum",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Mycalculator.sol": "MyCalculator"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Mycalculator.sol": {
+			"keccak256": "0x106af3a6a3259aa4541b94bf7e2420cae3fc3959c55952948291f452877434d4",
+			"urls": [
+				"bzz-raw://755c25db2fbe11fcb38c4458348170a5aeca0471a922e2d097b6834b50d9e1b2",
+				"dweb:/ipfs/QmZ9QqEvdjPtXMgyremZyjKQygzTn7T11oR9L6jodH1eVp"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,120 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "district",
+						"type": "string"
+					}
+				],
+				"name": "getAccumulatedSeverity",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getDistricts",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "district",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "day",
+						"type": "uint256"
+					}
+				],
+				"name": "getSeverityData",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "district",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "newSeverity",
+						"type": "uint256"
+					}
+				],
+				"name": "setSeverity",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Contracts.sol": "DisasterInterface"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Contracts.sol": {
+			"keccak256": "0xcc6decf7416371ef1b33fbe37c4dfdc7d2e334539a3101dc43c675e9c94a6ed7",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://c41348b27ad1ba7e3ed5ab80dd41dd80d22a44ff05da9da1895fcf3f0b335660",
+				"dweb:/ipfs/QmaQHLr4aPAgizpYBGEPFUbCVrJJ3Svq3EfWFWoEFGESPR"
+			]
+		}
+	},
+	"version": 1
+}

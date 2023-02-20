@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_x",
+						"type": "uint256"
+					}
+				],
+				"name": "fun",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"ternary.sol": "_ternary"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"ternary.sol": {
+			"keccak256": "0xbca78c8dc9c0798bd12810038c658532adc1b9ef4e7bb5a407aaba046ae258c9",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://565a97ed6a502b819cfbe25508512ff09b7419bf6480421aabe4f2f6659a21d3",
+				"dweb:/ipfs/QmNNNSdDZc88aa9GmKJPpQq9WiRtpcJ7ZSz1USkndeYiDp"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,105 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getdigit",
+				"outputs": [
+					{
+						"internalType": "bytes1",
+						"name": "",
+						"type": "bytes1"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getlen",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "setval",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "temp1",
+				"outputs": [
+					{
+						"internalType": "bytes5",
+						"name": "",
+						"type": "bytes5"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "temp2",
+				"outputs": [
+					{
+						"internalType": "bytes7",
+						"name": "",
+						"type": "bytes7"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"bytes.sol": "_bytes"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"bytes.sol": {
+			"keccak256": "0xd7bd40ab00cfa24890116df2bff3534185d62ed97bcd966b7b00631b6466ba60",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://974c74e7359dd9ecdbb1f179ab05149950d91cdcffa0fe2e0084c4423a4b3162",
+				"dweb:/ipfs/QmXids8ARCzNSU3GxwRfutHoj4GKeZXuHXdGpUWFDwKiW1"
+			]
+		}
+	},
+	"version": 1
+}
